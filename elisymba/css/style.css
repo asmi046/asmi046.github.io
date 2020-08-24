@@ -1415,7 +1415,8 @@ body.ie .ibg img {
   font-family: Lato-Medium, sans-serif;
   font-size: 18px;
   font-weight: 400;
-  text-transform: uppercase; }
+  text-transform: uppercase; 
+}
 
 @media screen and (max-width: 1100px) {
   .menu a {
@@ -1435,7 +1436,12 @@ body.ie .ibg img {
 
 /*Отступ Пунктов Меню*/
 .menu li {
-  margin: 10px 42px 15px 0px; }
+ }
+
+.menu li a{
+	margin: 10px 42px 15px 0px;
+	display: block;  
+}
 
 @media screen and (max-width: 1366px) {
   .menu li {
