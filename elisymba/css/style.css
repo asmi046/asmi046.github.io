@@ -2794,7 +2794,14 @@ body.ie .ibg img {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
-    flex-direction: column; } }
+    flex-direction: column; 
+	}
+	
+	.product-loop__btn a {
+		text-align:center;
+	}
+	
+}
 
 @media screen and (max-width: 1330px) {
   .product-loop__profit {
