@@ -2612,8 +2612,10 @@ body.ie .ibg img {
 }
 
 @media screen and (max-width: 1366px) {
-  .product-loop__stars {
-    left: 70px; } }
+	.product-loop__stars {
+		left: 70px; 
+	} 
+}
 
 @media screen and (max-width: 1330px) {
   .product-loop__stars {
@@ -2736,16 +2738,14 @@ body.ie .ibg img {
 
 /*Выгода*/
 .product-loop__profit {
-  font-size: 16px;
-  font-weight: 400;
-  color: #00a1ed;
-  margin-top: 12px;
-  margin-bottom: 20px;
-  margin-right: 3px; }
-
-@media screen and (max-width: 1500px) {
-  .product-loop__profit {
-    margin-left: 8px; } }
+	font-size: 16px;
+	font-weight: 400;
+	color: #00a1ed;
+	margin-top: 12px;
+	margin-bottom: 20px;
+	width:100%;
+	text-align:center;
+}
 
 @media screen and (max-width: 1330px) {
   .product-loop__profit {
