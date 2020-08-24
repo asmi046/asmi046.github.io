@@ -777,8 +777,8 @@ body.ie .ibg img {
   align-items: center; }
 
 .header-top__menu a {
-  padding-left: 25px;
-  position: relative; }
+  position: relative;
+}
 
 /*Шрифт Иконок*/
 .header-top__menu a {
@@ -805,15 +805,15 @@ body.ie .ibg img {
 /*Иконка Курск*/
 .header-top__map:before {
   content: "";
-  position: absolute;
-  top: -2px;
-  left: 0px;
-  width: 100%;
-  height: 100%;
   width: 16px;
   height: 16px;
+  float:left;
+  margin-right:10px;
   background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMi4xNjMiIGhlaWdodD0iMTcuMjk5IiB2aWV3Qm94PSIwIDAgMTIuMTYzIDE3LjI5OSI+PGRlZnM+PHN0eWxlPi5he2ZpbGw6I2U3NDE1Njt9PC9zdHlsZT48L2RlZnM+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzkzMi4wMDUgMzg2Ny44MzYpIj48cGF0aCBjbGFzcz0iYSIgZD0iTS0zOTI1LjkyMy0zODY3LjgzNmE2LjA4OCw2LjA4OCwwLDAsMC02LjA4Miw2LjA4MSw2LjA2OSw2LjA2OSwwLDAsMCwuOTA4LDMuMmw0LjgyOCw3Ljc4YS41MDYuNTA2LDAsMCwwLC40My4yNGgwYS41MDguNTA4LDAsMCwwLC40MzEtLjI0N2w0LjctNy44NTVhNi4wNjYsNi4wNjYsMCwwLDAsLjg1OC0zLjExNkE2LjA4OCw2LjA4OCwwLDAsMC0zOTI1LjkyMy0zODY3LjgzNlptNC4zNTQsOC42NzctNC4yNzgsNy4xNDEtNC4zODktNy4wNzNhNS4wNjMsNS4wNjMsMCwwLDEtLjc2Mi0yLjY2NCw1LjA4NSw1LjA4NSwwLDAsMSw1LjA3NS01LjA3NCw1LjA4Miw1LjA4MiwwLDAsMSw1LjA3MSw1LjA3NEE1LjA2NSw1LjA2NSwwLDAsMS0zOTIxLjU2OS0zODU5LjE1OVoiLz48cGF0aCBjbGFzcz0iYSIgZD0iTS0zOTI1LjkyMy0zODY0Ljc5NWEzLjA0NCwzLjA0NCwwLDAsMC0zLjA0MSwzLjA0LDMuMDM3LDMuMDM3LDAsMCwwLDMuMDQxLDMuMDQxLDMuMDM1LDMuMDM1LDAsMCwwLDMuMDQxLTMuMDQxQTMuMDQ1LDMuMDQ1LDAsMCwwLTM5MjUuOTIzLTM4NjQuNzk1Wm0wLDUuMDc0YTIuMDM1LDIuMDM1LDAsMCwxLTIuMDM0LTIuMDM0LDIuMDQyLDIuMDQyLDAsMCwxLDIuMDM0LTIuMDM0LDIuMDM4LDIuMDM4LDAsMCwxLDIuMDMsMi4wMzRBMi4wMzEsMi4wMzEsMCwwLDEtMzkyNS45MjMtMzg1OS43MjFaIi8+PC9nPjwvc3ZnPg==");
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat; 
+  background-position:center;
+  background-size:contain;
+}
 
 @media screen and (max-width: 1330px) {
   .header-top__map:before {
@@ -885,8 +885,8 @@ body.ie .ibg img {
 
 /*Отступы у первого элемента*/
 .header-top__menu a:first-child {
-  padding-left: 20px;
-  margin-right: 62px; }
+  margin-right: 62px; 
+}
 
 @media screen and (max-width: 1280px) {
   .header-top__menu a:first-child {
