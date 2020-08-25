@@ -263,12 +263,16 @@ textarea.input {
 
 .rating-block {
   display: table;
-  font-size: 0; }
+  font-size: 0; 
+
+}
 
 .rating {
   display: inline-block;
   position: relative;
-  vertical-align: middle; }
+  vertical-align: middle; 
+}
+
   .rating.edit .star {
     cursor: pointer; }
   .rating .star {
