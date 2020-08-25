@@ -74,10 +74,12 @@ button::-moz-focus-inner {
 
 a,
 a:visited {
-  text-decoration: none; }
+  text-decoration: none; 
+}
 
 a:hover {
-  text-decoration: none; }
+  text-decoration: none; 
+}
 
 ul li {
   list-style: none; }
