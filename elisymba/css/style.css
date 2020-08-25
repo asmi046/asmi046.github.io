@@ -36,14 +36,18 @@ a, p, ul, li {
   margin: 0; }
 
 a {
-  color: #1A1818; }
+  color: #1A1818; 
+  
+}
 
 aside,
 nav,
 footer,
 header,
 section {
-  display: block; }
+  display: block;
+
+  }
 
 html,
 body {
