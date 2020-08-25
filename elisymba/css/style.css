@@ -3258,3 +3258,169 @@ body.ie .ibg img {
     left: 190px; }
   .slider-arrow-prev:before {
     left: 245px; } }
+
+/*======================================================================*/
+/*=== Страница Bizidom-svet =============================*/
+
+/*=== Секция Название ===*/
+.name-bizidom {
+  padding-top: 28px;
+}
+.top-list {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 35px;
+}
+.top-list a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #464749;
+}
+.top-list a:hover {
+  color: #00B5F1;
+}
+.active a {
+  color:#00B5F1;
+}
+
+.section-header__bizidom {
+  margin-bottom: 30px;
+}
+
+
+/*=== Секция Слайдер ===*/
+.main-bnr_slider-top {
+  background: #F6F6F7;
+  max-width: 1920px;
+  margin: 0 auto;
+  border: 1px solid #000;
+}
+  
+.block-slider-top {
+  width: 885px;
+  height: 846px;
+  border: 1px solid #000;
+}
+
+
+/*=== Секция Таб-Харрактеристики ===*/
+.specifications {
+  background: #F6F6F7;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+
+.content-tab {
+  display: none;
+  padding: 43px 0 60px 48px;
+  border-top: 3px solid #ddd;
+  border-radius: 20px;
+  /*margin-top: -5px;*/
+}
+
+.content-tab__tilte {
+  margin-bottom: 45px;
+}
+
+.content-tab__list li {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.content-tab__list li:before {
+  content: "";
+  width: 17px;
+  height: 17px;
+  float:left;
+  margin-right:30px;
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOC41IiBoZWlnaHQ9IjE4LjUiIHZpZXdCb3g9IjAgMCAxOC41IDE4LjUiPg0KICA8ZyBpZD0i0KHQs9GA0YPQv9C/0LjRgNC+0LLQsNGC0YxfNTc3IiBkYXRhLW5hbWU9ItCh0LPRgNGD0L/Qv9C40YDQvtCy0LDRgtGMIDU3NyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTExOTMuMDkyIDIyNzUuMzM4KSI+DQogICAgPHBhdGggaWQ9ItCa0L7QvdGC0YPRgF8zNjciIGRhdGEtbmFtZT0i0JrQvtC90YLRg9GAIDM2NyIgZD0iTTEyMDEuNzQ0LTIyNjMuMDM0aDBhLjYxMi42MTIsMCwwLDEtLjQ3LS4yMTNsLTMuMjI1LTMuNWEuNjM5LjYzOSwwLDAsMSwuMDQzLS45LjYzOS42MzksMCwwLDEsLjkuMDQzbDIuNzc2LDMuMDExLDcuNjg5LTcuNjY3YS42Mi42MiwwLDAsMSwuOSwwLC42MzguNjM4LDAsMCwxLDAsLjlsLTguMTU5LDguMTM3QS41NzkuNTc5LDAsMCwxLDEyMDEuNzQ0LTIyNjMuMDM0WiIgZmlsbD0iIzAwYjVmMSIgc3Ryb2tlPSIjMDBiNWYxIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS13aWR0aD0iMS41Ii8+DQogICAgPHBhdGggaWQ9ItCa0L7QvdGC0YPRgF8zNjgiIGRhdGEtbmFtZT0i0JrQvtC90YLRg9GAIDM2OCIgZD0iTTEyMDIuMzQyLTIyNTcuNTg4YTguNTIyLDguNTIyLDAsMCwxLTguNS04LjUsOC41MjIsOC41MjIsMCwwLDEsOC41LTguNS42My42MywwLDAsMSwuNjQxLjY0MS42My42MywwLDAsMS0uNjQxLjY0MSw3LjIzNyw3LjIzNywwLDAsMC03LjIxOSw3LjIxOCw3LjIzNyw3LjIzNywwLDAsMCw3LjIxOSw3LjIxOSw3LjIzNyw3LjIzNywwLDAsMCw3LjIxOC03LjIxOS42MjkuNjI5LDAsMCwxLC42NDEtLjY0LjYyOS42MjksMCwwLDEsLjY0MS42NEE4LjUyMiw4LjUyMiwwLDAsMSwxMjAyLjM0Mi0yMjU3LjU4OFoiIGZpbGw9IiMwMGI1ZjEiIHN0cm9rZT0iIzAwYjVmMSIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2Utd2lkdGg9IjEuNSIvPg0KICA8L2c+DQo8L3N2Zz4NCg==');
+   background-repeat: no-repeat; 
+  background-position:center;
+  background-size:contain;
+}
+
+
+main {
+  background: #F6F6F7;
+  border-radius: 20px;
+}
+
+.tab {
+  display: none;
+}
+
+label {
+  display: inline-block;
+  margin: 0 3px -3px 0px;
+  padding: 10px 25px;
+  font-size: 23.83px;
+  font-weight: 800;
+  text-align: center;
+  border: 7px solid transparent;
+  border-radius: 18px 18px 0 0px;
+  border-top: 0.8px solid #C7C9CB;
+  border-left: 0.8px solid #C7C9CB;
+  border-right: 0.8px solid #C7C9CB;
+  background: #FFF;
+  -webkit-box-shadow: 0 0px 3px rgba(0, 0, 0, 0.1), -13px 0px 20px -23px rgba(0, 0, 0, 0.8), 13px 0px 20px -25px rgba(0, 0, 0, 0.8), 0px 0px 0px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: -13px 0px 12px 0px rgba(0, 0, 0, 0.1), -13px 0px 20px -23px rgba(0, 0, 0, 0.8), 13px 0px 20px -25px rgba(0, 0, 0, 0.8), 0px 0px 0px rgba(0, 0, 0, 0.1) inset; 
+}
+
+.tab1-1 {
+  margin-left: 30px;
+}
+
+label:hover {
+  color: #888;
+  cursor: pointer;
+}
+
+input:checked + label {
+  color: #555;
+  border: 1px solid #ddd;
+  /*border-bottom: 5px solid #fff;*/
+  background: #00B5F1;
+  padding: 22px 38px 16px 38px;
+  border-radius: 33px 33px 0px 0px;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4 {
+  display: block;
+  border: 0.8px solid #C7C9CB;
+  background: #FFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*=== Секция Отзывы ===*/
+.reviews__bizi-svet {
+  background: #F6F6F7;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+/*=== Секция Похожие товары ===*/
+.main-products__bizi-svet {
+  background: #FFF;
+  max-width: 1920px;
+  margin: 0 auto;
+}
