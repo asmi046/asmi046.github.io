@@ -3264,25 +3264,22 @@ body.ie .ibg img {
 .name-bizidom {
   padding-top: 28px;
 }
-.top-list {
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+
+#breadcrumbs {
   margin-bottom: 35px;
 }
-.top-list a {
+
+#breadcrumbs a {
   font-size: 16px;
   font-weight: 400;
   color: #464749;
 }
-.top-list a:hover {
+#breadcrumbs a:hover {
   color: #00B5F1;
 }
-.active a {
+.breadcrumb_last {
+  font-size: 16px;
+  font-weight: 400;
   color:#00B5F1;
 }
 
