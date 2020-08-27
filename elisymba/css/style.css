@@ -1454,17 +1454,17 @@ body.ie .ibg img {
 /*Отступ Пунктов Меню*/
 
 .menu li a{
-	margin: 10px 42px 15px 0px;
+	margin: 12px 42px 12px 0px;
 	display: block;  
 }
 
 @media screen and (max-width: 1366px) {
-  .menu li {
-    margin: 8px 28px 10px 0px; } }
+  .menu a {
+    font-size: 16px;
+  }
+}
 
-@media screen and (max-width: 1330px) {
-  .menu li {
-    margin: 8px 28px 10px 0px; } }
+@media screen and (max-width: 1330px) {}
 
 @media screen and (max-width: 1280px) {
   .menu li {
