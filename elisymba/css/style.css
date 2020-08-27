@@ -3646,19 +3646,24 @@ main {
 
 label {
   display: inline-block;
-  margin: 0 3px -3px 0px;
+  margin: 0 3px 0 0;
   padding: 10px 25px;
   font-size: 23.83px;
   font-weight: 800;
   text-align: center;
-  border: 7px solid transparent;
+ 
+  /* border: 7px solid transparent;*/
+
   border-radius: 18px 18px 0 0px;
   border-top: 0.4px solid #C7C9CB;
   border-left: 0.4px solid #C7C9CB;
   border-right: 0.4px solid #C7C9CB;
   background: #FFF;
+  
+  /*
   -webkit-box-shadow: 0 0px 3px rgba(0, 0, 0, 0.1), -13px 0px 20px -23px rgba(0, 0, 0, 0.8), 13px 0px 20px -25px rgba(0, 0, 0, 0.8), 0px 0px 0px rgba(0, 0, 0, 0.1) inset;
   box-shadow: -13px 0px 12px 0px rgba(0, 0, 0, 0.1), -13px 0px 20px -23px rgba(0, 0, 0, 0.8), 13px 0px 20px -25px rgba(0, 0, 0, 0.8), 0px 0px 0px rgba(0, 0, 0, 0.1) inset; 
+  */
 }
 
 .tab1-1 {
@@ -3671,11 +3676,11 @@ label:hover {
 }
 
 input:checked + label {
-  color: #555;
-  border: 1px solid #ddd;
-  /*border-bottom: 5px solid #fff;*/
+  color: #fff;
+  /*border: 1px solid #ddd;
+  border-bottom: 5px solid #fff;*/
   background: #00B5F1;
-  padding: 22px 38px 16px 38px;
+  padding: 22px 38px 10px 38px;
   border-radius: 33px 33px 0px 0px;
 }
 
