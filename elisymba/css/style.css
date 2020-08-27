@@ -2493,7 +2493,9 @@ body.ie .ibg img {
   font-size: 20px;
   font-weight: 700;
   padding: 8px 14px 6px 15px;
-  background-color: #00b5f1; }
+  background-color: #00b5f1; 
+  z-index: 10000;
+}
 
 @media screen and (max-width: 1330px) {
   .product-loop__info.bg-blue-new {
@@ -3305,6 +3307,12 @@ body.ie .ibg img {
   display: flex;
   justify-content: space-between;
 }
+
+.tovar_slider_wraper {
+  position: relative;
+}
+
+.tovar_slider,
 .container.slider-bizi  {
   max-width: 884px;
   margin: 0;
@@ -3327,19 +3335,19 @@ body.ie .ibg img {
   object-fit: cover; 
 }
 /*Отступ кнопок слайдера*/
-.main-bnr_slider-top .slick-dots {
+.tovar_slider .slick-dots {
   margin-bottom: 70px;
   bottom: -15px; }
 /*Диаметр ползунков Слайдера*/
-.main-bnr_slider-top .slick-dots li button:before {
+.tovar_slider .slick-dots li button:before {
   font-size: 73px;
   opacity: 1;
   color: #EDEEEF; }
 /*Цвет ползунков Слайдера*/
-.main-bnr_slider-top .slick-dots li.slick-active button:before {
+.tovar_slider .slick-dots li.slick-active button:before {
   color: #00B5F1; }
 /*Отступы между кнопками Слайдера*/
-.main-bnr_slider-top .slick-dots li {
+.tovar_slider .slick-dots li {
   margin: 0 8px;
 }
 .sl-block {
