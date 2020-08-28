@@ -3352,6 +3352,11 @@ body.ie .ibg img {
   .line:before {
    width: 100%; } }
 
+/*@media screen and (max-width: 768px) {
+  .line:before {
+  width: 650px; }
+}*/
+
 /*=================================================================*/
 /*=== Секция Таб-Харрактеристики ===*/
 .specifications {
