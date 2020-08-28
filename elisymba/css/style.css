@@ -3339,8 +3339,8 @@ body.ie .ibg img {
     display: block; }
 
   .tovar_slider, .container.slider-bizi {
-    width:100%;
-    margin: 0 auto; } 
+    max-width: 955px;
+    width:100%; } 
 
   .main-bnr__item_block img {
     width: 60%;
