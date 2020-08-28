@@ -3350,12 +3350,14 @@ body.ie .ibg img {
     width:100%; }
 
   .line:before {
+  max-width: 950px;
    width: 100%; } }
 
-/*@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .line:before {
-  width: 650px; }
-}*/
+
+   }
+}
 
 /*=================================================================*/
 /*=== Секция Таб-Харрактеристики ===*/
@@ -3469,7 +3471,9 @@ input:checked + label {
   .tab1-1 {
   margin-left: 0px; } }
 
-
+@media screen and (max-width: 667px) {
+  .content-tab {
+  padding: 35px 25px 30px 25px; } }
 /*============================================================*/
 /*=== Секция Отзывы ===*/
 .reviews__bizi-svet {
