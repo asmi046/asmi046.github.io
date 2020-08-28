@@ -3567,8 +3567,7 @@ input:checked + label {
 /*=== Бургер Меню ==================*/
 .burger-menu {
   background: #FEAB26;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 15px 0;
   display: none;
   position: fixed;
   bottom: 0;
