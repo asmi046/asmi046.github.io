@@ -2674,8 +2674,9 @@ body.ie .ibg img {
   .reviews-item__photo {
     max-width: 200px;
     max-height: 200px;
-    margin: 0 auto;
-    margin-bottom: 10px; } }
+    margin: 0 auto 25px 0; 
+  } 
+}
 
 
 
