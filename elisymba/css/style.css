@@ -3356,9 +3356,18 @@ body.ie .ibg img {
   max-width: 950px;
    width: 100%; } }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 414px) {
+  .main-bnr__item_block {
+  height: 435px; } 
 
-}
+  .slider-bizi-prev:before {
+   top: 160px; }
+
+  .slider-bizi-next:before {
+    top: 160px; }
+
+  .block-card {
+  height: 975px; } }
 
 /*=================================================================*/
 /*=== Секция Таб-Харрактеристики ===*/
@@ -3476,7 +3485,6 @@ input:checked + label {
   .content-tab {
   padding: 35px 25px 30px 25px; } }
 
-
 /*============================================================*/
 /*=== Секция Отзывы ===*/
 .reviews__bizi-svet {
@@ -3507,9 +3515,6 @@ input:checked + label {
   z-index: 30000;
   width: 100%;
 }
-@media screen and (max-width: 520px) {
-  .burger-menu {
-  display: block; } }
 
 .burger-menu__row {
   padding: 0;
@@ -3571,6 +3576,11 @@ input:checked + label {
   background-position:center;
   background-size:contain;
 }
+
+@media screen and (max-width: 520px) {
+  .burger-menu {
+  display: block; } }
+
 
 /*=== Бургер ===*/
 /* .nav-icon-5 {
