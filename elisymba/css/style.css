@@ -3352,7 +3352,6 @@ body.ie .ibg img {
   .line:before {
    width: 100%; } }
 
-
 /*=================================================================*/
 /*=== Секция Таб-Харрактеристики ===*/
 .specifications {
@@ -3366,7 +3365,7 @@ body.ie .ibg img {
   padding: 43px 0 60px 48px;
   border-top: 3px solid #ddd;
   border-radius: 20px;
-  /*margin-top: -5px;*/
+  /*margin-top: -10px;*/
 }
 
 .content-tab__tilte {
@@ -3404,7 +3403,7 @@ main {
 label {
   display: inline-block;
   margin: 0 3px 0 0;
-  padding: 10px 25px;
+  padding: 18px 25px 20px 25px;
   font-size: 23.83px;
   font-weight: 800;
   text-align: center;
@@ -3437,7 +3436,7 @@ input:checked + label {
   /*border: 1px solid #ddd;
   border-bottom: 5px solid #fff;*/
   background: #00B5F1;
-  padding: 22px 38px 10px 38px;
+  padding: 22px 38px 20px 38px;
   border-radius: 33px 33px 0px 0px;
 }
 
@@ -3449,6 +3448,23 @@ input:checked + label {
   border: 0.4px solid #C7C9CB;
   background: #FFF;
 }
+
+@media screen and (max-width: 812px) {
+
+  input:checked + label {
+  padding: 15px 28px 15px 28px;
+  border-radius: 30px 30px 30px 30px; }
+
+  label {
+
+  margin: 0 30px 18px 0;
+  padding: 15px 38px 15px 38px;
+  border-radius: 30px 30px 30px 30px; }
+
+  .tab1-1 {
+  margin-left: 0px; } }
+
+
 /*============================================================*/
 /*=== Секция Отзывы ===*/
 .reviews__bizi-svet {
