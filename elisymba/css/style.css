@@ -3333,6 +3333,26 @@ body.ie .ibg img {
     width: 80%;
     margin-top: 110px; } }
 
+@media screen and (max-width: 960px) {
+
+  .wrapper-bizi {
+    display: block; }
+
+  .tovar_slider, .container.slider-bizi {
+    width:100%;
+    margin: 0 auto; } 
+
+  .main-bnr__item_block img {
+    width: 60%;
+    margin-top: 30px; }
+
+  .block-card {
+    width:100%; }
+
+  .line:before {
+   width: 100%; } }
+
+
 /*=================================================================*/
 /*=== Секция Таб-Харрактеристики ===*/
 .specifications {
