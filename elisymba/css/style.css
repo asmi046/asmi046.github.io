@@ -3521,13 +3521,12 @@ input:checked + label {
 .menu-bottom {
   display: flex;
   justify-content: space-between;
-  color: #fff;
   margin-top: 15px;
-  position: relative;
 }
 
-.menu-bottom li {
+.menu-bottom li a {
   position: relative;
+  color: #fff;
 }
 
 .contact-svg:before {
