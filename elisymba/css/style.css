@@ -3288,6 +3288,11 @@ body.ie .ibg img {
   } 
 }
 
+@media screen and (max-width: 1366px) {
+  .tovar_slider, .container.slider-bizi {
+    width:780px;
+  } 
+}
 
 @media screen and (max-width: 1360px) {
   .tovar_slider, .container.slider-bizi {
@@ -3302,12 +3307,31 @@ body.ie .ibg img {
 }
 
 @media screen and (max-width: 1100px) {
+  .tovar_slider, .container.slider-bizi {
+    width:580px; }
 
-}
+  .slider-bizi-prev:before {
+   right: 10px; }
+
+  .slider-bizi-next:before {
+    left: 10px; }
+
+  .block-card {
+    width:480px; }
+
+  .line:before {
+   width: 390px; }
+
+   .card-price__numeral {
+   font-size: 68px; } }
 
 @media screen and (max-width: 1024px) {
+  .tovar_slider, .container.slider-bizi {
+    width:500px; }
 
-}
+  .main-bnr__item_block img {
+    width: 80%;
+    margin-top: 110px; } }
 
 /*=================================================================*/
 /*=== Секция Таб-Харрактеристики ===*/
