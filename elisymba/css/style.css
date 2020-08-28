@@ -757,7 +757,10 @@ body.ie .ibg img {
   background-image: url(../img/header-min.jpg); 
   background-size: cover;
 }
-
+@media screen and (max-width: 414px) {
+  .header {
+    padding-top: 2px;
+    padding-bottom: 0px; } }
 
 .ul-clean {
   list-style: none;
@@ -775,6 +778,10 @@ body.ie .ibg img {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between; }
+
+@media screen and (max-width: 414px) {
+  .header-top__menu-contact {
+    display: none; } }
 
 .header-top__menu {
   display: -webkit-flex;
@@ -1064,18 +1071,15 @@ body.ie .ibg img {
 }
 
 
-
 @media screen and (max-width: 1360px) {
   .header-search {
     margin-left: 20px;
-    margin-right: 20px;
-  }
-}
+    margin-right: 20px; } }
 
+@media screen and (max-width: 414px) {
+  .header-search {
+    display: none; } }
 
-@media screen and (max-width: 680px) {
- 
-}
 
 /*Блок Заголовка*/
 .header-title {
@@ -1218,18 +1222,17 @@ body.ie .ibg img {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column; 
-    max-width: 140px;
-  } 
-}
-
+    max-width: 140px; } }
 
 @media screen and (max-width: 680px) {
   .header-user {
     max-width: 60%;
     flex-direction: row; 
-    margin: 30px auto 10px;
-  }   
-}
+    margin: 30px auto 10px; } }
+
+@media screen and (max-width: 414px) {
+  .header-user {
+    display: none; } }
 
 /*Шрифт Иконок*/
 .header-user a {
@@ -1269,6 +1272,9 @@ body.ie .ibg img {
   background-position: center;
   background-size: contain; }
 
+@media screen and (max-width: 414px) {
+  .main-menu {
+    display: none; } }
 
 .d-flex {
   display: -webkit-flex;
@@ -1610,6 +1616,10 @@ body.ie .ibg img {
 @media screen and (max-width: 520px) {
 .footer {
   padding-bottom: 158px; } }
+
+@media screen and (max-width: 414px) {
+.footer {
+  padding-bottom: 93px; } }
 
 /*=============================================================*/
 /*=== Секция Слайдер ===*/
@@ -2619,6 +2629,10 @@ body.ie .ibg img {
   display: -ms-flexbox;
   display: flex; }
 
+@media screen and (max-width: 414px) {
+  .reviews-item__wrapper {
+    display: block; } }
+
 /*Фото Слайдера*/
 .reviews-item__photo {
   max-width: 200px;
@@ -2655,6 +2669,16 @@ body.ie .ibg img {
     max-width: 150px;
     max-height: 150px;
     margin-top: -3px; } }
+
+@media screen and (max-width: 414px) {
+  .reviews-item__photo {
+    max-width: 200px;
+    max-height: 200px;
+    margin: 0 auto;
+    margin-bottom: 10px; } }
+
+
+
 
 /*Имя Клиента*/
 .reviews-item__name {
@@ -2821,6 +2845,10 @@ body.ie .ibg img {
     top: 235px;
     right: -100px; } }
 
+@media screen and (max-width: 414px) {
+  .slider-arrow-next:before {
+    top: 470px; } }
+
 /*Правая Кнопка Слайдера*/
 .slider-arrow-prev:before {
   content: "";
@@ -2878,6 +2906,10 @@ body.ie .ibg img {
 @media screen and (max-width: 600px) {
   .slider-arrow-prev:before {
     top: -270px; } }
+
+@media screen and (max-width: 414px) {
+  .slider-arrow-prev:before {
+    top: -505px; } }
 
 /*Правая Кнопка Слайдера Переворот*/
 .slider-arrow-prev {
@@ -2938,6 +2970,12 @@ body.ie .ibg img {
     left: 190px; }
   .slider-arrow-prev:before {
     left: 245px; } }
+
+@media screen and (max-width: 414px) {
+  .slider-arrow-next:before {
+    left: 125px; }
+  .slider-arrow-prev:before {
+    left:120px; } }
 
 /*======================================================================*/
 /*=== Страница Bizidom-svet =============================*/
@@ -3089,9 +3127,10 @@ body.ie .ibg img {
   content: "";
   width: 23px;
   height: 23px;
-  position: absolute;
-  top:-7px;
-  left: -33px;
+  float: left;
+  margin-left: -20px;
+  margin-right: 10px;
+  margin-top: -8px;
   background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMi41ODgiIGhlaWdodD0iMjIuMjE2IiB2aWV3Qm94PSIwIDAgMjIuNTg4IDIyLjIxNiI+DQogIDxwYXRoIGlkPSLQmtC+0L3RgtGD0YBfMzM5IiBkYXRhLW5hbWU9ItCa0L7QvdGC0YPRgCAzMzkiIGQ9Ik0yMDg2LjQ1My0zNDE2LjE2N2w3LjQ4MSwxMSw5LjYxMy0xNy41IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMjA4My42NzUgMzQyNS4zODMpIiBmaWxsPSJub25lIiBzdHJva2U9IiMwMGI1ZjEiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSI0Ii8+DQo8L3N2Zz4NCg==');
   background-repeat: no-repeat; 
   background-position:center;
@@ -3101,9 +3140,10 @@ body.ie .ibg img {
   content: "";
   width: 23px;
   height: 23px;
-  position: absolute;
-  top: -7px;
-  left: -33px;
+  float: left;
+  margin-left: -20px;
+  margin-right: 10px;
+  margin-top: -8px;
   background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMi41ODgiIGhlaWdodD0iMjIuMjE2IiB2aWV3Qm94PSIwIDAgMjIuNTg4IDIyLjIxNiI+DQogIDxwYXRoIGlkPSLQmtC+0L3RgtGD0YBfMzM5IiBkYXRhLW5hbWU9ItCa0L7QvdGC0YPRgCAzMzkiIGQ9Ik0yMDg2LjQ1My0zNDE2LjE2N2w3LjQ4MSwxMSw5LjYxMy0xNy41IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMjA4My42NzUgMzQyNS4zODMpIiBmaWxsPSJub25lIiBzdHJva2U9IiMwMGI1ZjEiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSI0Ii8+DQo8L3N2Zz4NCg==');
   background-repeat: no-repeat; 
   background-position:center;
@@ -3154,9 +3194,10 @@ body.ie .ibg img {
   content: "";
   width: 23px;
   height: 23px;
-  position: absolute;
-  top: -3px;
-  left: -35px;
+  float: left;
+  margin-left: -20px;
+  margin-right: 10px;
+  margin-top: -2px;
   background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMi41ODgiIGhlaWdodD0iMjIuMjE2IiB2aWV3Qm94PSIwIDAgMjIuNTg4IDIyLjIxNiI+DQogIDxwYXRoIGlkPSLQmtC+0L3RgtGD0YBfMzM5IiBkYXRhLW5hbWU9ItCa0L7QvdGC0YPRgCAzMzkiIGQ9Ik0yMDg2LjQ1My0zNDE2LjE2N2w3LjQ4MSwxMSw5LjYxMy0xNy41IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMjA4My42NzUgMzQyNS4zODMpIiBmaWxsPSJub25lIiBzdHJva2U9IiMwMGI1ZjEiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSI0Ii8+DQo8L3N2Zz4NCg==');
   background-repeat: no-repeat; 
   background-position:center;
@@ -3367,7 +3408,19 @@ body.ie .ibg img {
     top: 160px; }
 
   .block-card {
-  height: 975px; } }
+  height: 835px; 
+  padding: 28px 15px 35px; } 
+
+  .card-price__numeral {
+    font-size: 50px; }
+
+  .guarantee__one:before {
+  margin-left: -15px;
+  margin-right: 5px; }
+
+  .guarantee__two:before {
+  margin-left: -15px;
+  margin-right: 5px; } }
 
 /*=================================================================*/
 /*=== Секция Таб-Харрактеристики ===*/
@@ -3484,6 +3537,13 @@ input:checked + label {
 @media screen and (max-width: 667px) {
   .content-tab {
   padding: 35px 25px 30px 25px; } }
+
+@media screen and (max-width: 414px) {
+  label {
+  display: flex; 
+  margin: 0 auto;
+  margin-bottom: 10px; } }
+
 
 /*============================================================*/
 /*=== Секция Отзывы ===*/
