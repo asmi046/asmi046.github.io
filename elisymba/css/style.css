@@ -2847,8 +2847,13 @@ body.ie .ibg img {
     right: -100px; } }
 
 @media screen and (max-width: 414px) {
+  
   .slider-arrow-next:before {
-    top: 470px; } }
+    top: inherit;
+    bottom: -58px;
+    left: calc(190px - 50px);
+  } 
+}
 
 /*Правая Кнопка Слайдера*/
 .slider-arrow-prev:before {
@@ -2863,6 +2868,7 @@ body.ie .ibg img {
   background-size: 100%;
   background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNi43NSIgaGVpZ2h0PSIzNi43NSIgdmlld0JveD0iMCAwIDM2Ljc1IDM2Ljc1Ij48ZGVmcz48c3R5bGU+LmF7ZmlsbDpub25lO3N0cm9rZS1taXRlcmxpbWl0OjEwO3N0cm9rZS13aWR0aDoxLjc1cHg7fS5hLC5ie3N0cm9rZTojMDA5Y2RjO30uYntmaWxsOiNmZmY7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS13aWR0aDo2cHg7fTwvc3R5bGU+PC9kZWZzPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQwMDguODc0IDY0Ny4xODMpIj48Y2lyY2xlIGNsYXNzPSJhIiBjeD0iMTcuNSIgY3k9IjE3LjUiIHI9IjE3LjUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC00MDA3Ljk5OSAtNjQ2LjMwOCkiLz48bGluZSBjbGFzcz0iYiIgeDE9IjcuNjE5IiB5Mj0iNy45OTUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zOTk2LjkzNCAtNjM2LjgwOCkiLz48bGluZSBjbGFzcz0iYiIgeDE9IjcuNjE5IiB5MT0iNy45OTUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zOTk2LjkzNCAtNjI4LjgwMykiLz48L2c+PC9zdmc+");
   cursor: pointer; }
+
 
 @media screen and (max-width: 1500px) {
   .slider-arrow-prev:before {
@@ -2910,14 +2916,20 @@ body.ie .ibg img {
 
 @media screen and (max-width: 414px) {
   .slider-arrow-prev:before {
-    top: -505px; } }
+    top: inherit;
+    bottom: 496px;
+    left: calc(50% - 56px );
+    z-index: 100000; 
+  } 
+}
 
 /*Правая Кнопка Слайдера Переворот*/
+
 .slider-arrow-prev {
   -webkit-transform: rotate(-180deg);
   -ms-transform: rotate(-180deg);
   transform: rotate(-180deg); }
-
+/* 
 @media screen and (max-width: 1500px) {
   .slider-arrow-next:before {
     left: 410px; }
@@ -2967,16 +2979,14 @@ body.ie .ibg img {
     left: 265px; } }
 
 @media screen and (max-width: 600px) {
-  .slider-arrow-next:before {
-    left: 190px; }
-  .slider-arrow-prev:before {
-    left: 245px; } }
+
+}
 
 @media screen and (max-width: 414px) {
-  .slider-arrow-next:before {
-    left: 125px; }
   .slider-arrow-prev:before {
-    left:120px; } }
+    left:120px; 
+  } 
+} */
 
 /*======================================================================*/
 /*=== Страница Bizidom-svet =============================*/
