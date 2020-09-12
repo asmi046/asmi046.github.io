@@ -1,0 +1,61 @@
+.pd-page{
+    #header{
+        padding-bottom: 84px;
+    }
+    .breadcrumbs {
+        margin-bottom: 42px;
+    }
+}
+.pd-info__message{
+    font-family: 'MyriadPro-Bold', sans-serif;
+    font-size: 24px;
+    line-height: 33px;
+    border-top: $decor-line;
+    border-bottom: $decor-line;
+    padding-top: 40px;
+    padding-bottom: 46px;
+}
+.terms-box{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 137px;
+    .terms__item{
+        padding-top: 67px;
+        box-sizing: border-box;
+        width: 45.48%;
+        &:first-child{
+            width: 54.51%;
+            padding-right: 20px;
+        }
+        .amazon-link{
+            display: block;
+            width: 215px;
+            height: 56px;
+            border-radius: 40px;
+            box-shadow: $box-shadow;
+            border: 1px solid #AEB0B3;
+            box-sizing: border-box;
+            background-image: url(img/amazon.png);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: contain;
+            background-color: #fff;
+            margin-bottom: 40px;
+            transition: all 200ms;
+            &:hover{
+                box-shadow: $box-shadow-hide;
+            }
+        }
+        h4{
+            font-family: 'Lato-Heavy', sans-serif;
+            font-size: 47px;
+            line-height: 56px;
+            margin-bottom: 49px;
+            
+        }
+        .btn{
+            display: block;
+            max-width: 215px;
+        }
+    }
+}
