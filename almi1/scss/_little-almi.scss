@@ -1,0 +1,17 @@
+.little-almi-page{
+    .btn{
+        background-color: $active-color-alternative;
+    }
+    .catalog__item__wr .catalog__item .birka{
+        background-color: #9CC1E6;
+    }
+    .catalog__item__wr .catalog__link-box{
+        background-color: $active-color-alternative;
+    }
+    .catalog__item__wr .catalog__link-box .amazon-link{
+        border: 1px solid #EE798A;
+    }
+    .pagination ul li.pagination__current span {
+        background-color: $active-color-alternative;
+    }
+}

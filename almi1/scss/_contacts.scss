@@ -1,0 +1,41 @@
+.contacts-page{
+    #header {
+        .header-content {
+            h1{
+                padding-top: 139px;
+                margin-bottom: 26px;
+            }
+        }
+    }
+}
+.contacts-table{
+    font-size: 20px;
+    line-height: 28px;
+    text-align: left;
+    th{
+        font-family: 'MyriadPro-Bold', sans-serif;
+        width: 149px;
+        padding-bottom: 5px;
+    }
+    td{
+        padding-bottom: 5px;
+        a{
+            color: $text-color;
+            &.link{
+                color: $active-color;
+            }
+        } 
+    }
+}
+
+#map{
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    border: 9px solid #fff;
+    border-radius: 25px;
+    height: 498px;
+    margin-top: 144px;
+    margin-bottom: 81px;
+    
+}
